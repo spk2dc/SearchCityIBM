@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="3.529" tests="8" failures="7">
-  <testsuite name="Root Suite" timestamp="2020-09-17T19:24:30" tests="0" failures="0" time="0">
+<testsuites name="Mocha Tests" time="3.169" tests="8" failures="6">
+  <testsuite name="Root Suite" timestamp="2020-09-17T19:25:56" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="city search test" timestamp="2020-09-17T19:24:30" tests="8" file="/projects/challenge/test/test.js" failures="7" time="3.529">
-    <testcase name="city search test Valid input should be provided in the input box - no space no numbers allowed" time="0.206" classname="Valid input should be provided in the input box - no space no numbers allowed">
-      <failure message="expected &apos;Please provide a valid input&apos; to equal &apos;Please provide the valid input&apos;" type="AssertionError"><![CDATA[AssertionError: expected 'Please provide a valid input' to equal 'Please provide the valid input'
-    at Context.<anonymous> (test/test.js:61:30)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+  <testsuite name="city search test" timestamp="2020-09-17T19:25:56" tests="8" file="/projects/challenge/test/test.js" failures="6" time="3.169">
+    <testcase name="city search test Valid input should be provided in the input box - no space no numbers allowed" time="0.353" classname="Valid input should be provided in the input box - no space no numbers allowed">
     </testcase>
-    <testcase name="city search test After typing invalid input, it should be reset" time="0.171" classname="After typing invalid input, it should be reset">
+    <testcase name="city search test After typing invalid input, it should be reset" time="0.226" classname="After typing invalid input, it should be reset">
     </testcase>
-    <testcase name="city search test Should search cities and render table on valid input by making sure api is hit" time="0.701" classname="Should search cities and render table on valid input by making sure api is hit">
+    <testcase name="city search test Should search cities and render table on valid input by making sure api is hit" time="0.544" classname="Should search cities and render table on valid input by making sure api is hit">
       <failure message="expected 10 to equal 9" type="AssertionError"><![CDATA[AssertionError: expected 10 to equal 9
     at Context.<anonymous> (test/test.js:161:36)
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
     </testcase>
-    <testcase name="city search test Should give correct result when no data is returned by the api" time="0.491" classname="Should give correct result when no data is returned by the api">
+    <testcase name="city search test Should give correct result when no data is returned by the api" time="0.441" classname="Should give correct result when no data is returned by the api">
       <failure message="expected 1 to equal 0" type="AssertionError"><![CDATA[AssertionError: expected 1 to equal 0
     at Context.<anonymous> (test/test.js:211:36)
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
     </testcase>
-    <testcase name="city search test Should give correct result when data is returned by the api - test 1" time="0.518" classname="Should give correct result when data is returned by the api - test 1">
-      <failure message="expected 8 to equal 7" type="AssertionError"><![CDATA[AssertionError: expected 8 to equal 7
+    <testcase name="city search test Should give correct result when data is returned by the api - test 1" time="0.414" classname="Should give correct result when data is returned by the api - test 1">
+      <failure message="expected 10 to equal 9" type="AssertionError"><![CDATA[AssertionError: expected 10 to equal 9
     at Context.<anonymous> (test/test.js:262:36)
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
     </testcase>
-    <testcase name="city search test Should give correct result when data is returned by the api - test 2" time="0.499" classname="Should give correct result when data is returned by the api - test 2">
-      <failure message="expected 10 to equal 9" type="AssertionError"><![CDATA[AssertionError: expected 10 to equal 9
-    at Context.<anonymous> (test/test.js:313:36)
+    <testcase name="city search test Should give correct result when data is returned by the api - test 2" time="0.406" classname="Should give correct result when data is returned by the api - test 2">
+      <failure message="expected &apos;Total cities found: 12&apos; to equal &apos;Total cities found: 10&apos;" type="AssertionError"><![CDATA[AssertionError: expected 'Total cities found: 12' to equal 'Total cities found: 10'
+    at Context.<anonymous> (test/test.js:310:26)
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
     </testcase>
-    <testcase name="city search test Should give correct result when data is returned by the api - test 3" time="0.495" classname="Should give correct result when data is returned by the api - test 3">
+    <testcase name="city search test Should give correct result when data is returned by the api - test 3" time="0.386" classname="Should give correct result when data is returned by the api - test 3">
       <failure message="expected 1 to equal 0" type="AssertionError"><![CDATA[AssertionError: expected 1 to equal 0
     at Context.<anonymous> (test/test.js:364:36)
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
     </testcase>
-    <testcase name="city search test Should give correct result when data is returned by the api - test 4" time="0.448" classname="Should give correct result when data is returned by the api - test 4">
+    <testcase name="city search test Should give correct result when data is returned by the api - test 4" time="0.399" classname="Should give correct result when data is returned by the api - test 4">
       <failure message="expected 1 to equal 0" type="AssertionError"><![CDATA[AssertionError: expected 1 to equal 0
     at Context.<anonymous> (test/test.js:415:36)
     at <anonymous>

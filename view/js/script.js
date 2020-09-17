@@ -35,7 +35,7 @@ let clickFunc = () => {
       document.getElementsByClassName("table")[0].appendChild(tbody)
 
       //add table row and create variable to check when state changes
-      let tr = tbody.insertRow()
+      let tr
       let state
       //loop through all items and add cities to rows
       for(const item of data.data){
