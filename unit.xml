@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="2.6899999999999995" tests="8" failures="2">
-  <testsuite name="Root Suite" timestamp="2020-09-17T19:43:04" tests="0" failures="0" time="0">
+<testsuites name="Mocha Tests" time="4.129999999999999" tests="8" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-09-17T19:45:01" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="city search test" timestamp="2020-09-17T19:43:04" tests="8" file="/projects/challenge/test/test.js" failures="2" time="2.6899999999999995">
-    <testcase name="city search test Valid input should be provided in the input box - no space no numbers allowed" time="0.367" classname="Valid input should be provided in the input box - no space no numbers allowed">
+  <testsuite name="city search test" timestamp="2020-09-17T19:45:01" tests="8" file="/projects/challenge/test/test.js" failures="2" time="4.129999999999999">
+    <testcase name="city search test Valid input should be provided in the input box - no space no numbers allowed" time="0.383" classname="Valid input should be provided in the input box - no space no numbers allowed">
     </testcase>
-    <testcase name="city search test After typing invalid input, it should be reset" time="0.224" classname="After typing invalid input, it should be reset">
+    <testcase name="city search test After typing invalid input, it should be reset" time="0.3" classname="After typing invalid input, it should be reset">
     </testcase>
     <testcase name="city search test Should search cities and render table on valid input by making sure api is hit" time="0" classname="Should search cities and render table on valid input by making sure api is hit">
       <failure message="stale element reference: element is not attached to the page document
@@ -26,19 +26,19 @@ From: Task: WebElement.sendKeys()
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
     </testcase>
-    <testcase name="city search test Should give correct result when no data is returned by the api" time="0.515" classname="Should give correct result when no data is returned by the api">
+    <testcase name="city search test Should give correct result when no data is returned by the api" time="0.849" classname="Should give correct result when no data is returned by the api">
     </testcase>
-    <testcase name="city search test Should give correct result when data is returned by the api - test 1" time="0.392" classname="Should give correct result when data is returned by the api - test 1">
+    <testcase name="city search test Should give correct result when data is returned by the api - test 1" time="0.569" classname="Should give correct result when data is returned by the api - test 1">
     </testcase>
-    <testcase name="city search test Should give correct result when data is returned by the api - test 2" time="0.389" classname="Should give correct result when data is returned by the api - test 2">
-      <failure message="expected 7 to equal 5" type="AssertionError"><![CDATA[AssertionError: expected 7 to equal 5
+    <testcase name="city search test Should give correct result when data is returned by the api - test 2" time="0.571" classname="Should give correct result when data is returned by the api - test 2">
+      <failure message="expected 8 to equal 6" type="AssertionError"><![CDATA[AssertionError: expected 8 to equal 6
     at Context.<anonymous> (test/test.js:313:36)
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
     </testcase>
-    <testcase name="city search test Should give correct result when data is returned by the api - test 3" time="0.407" classname="Should give correct result when data is returned by the api - test 3">
+    <testcase name="city search test Should give correct result when data is returned by the api - test 3" time="0.736" classname="Should give correct result when data is returned by the api - test 3">
     </testcase>
-    <testcase name="city search test Should give correct result when data is returned by the api - test 4" time="0.396" classname="Should give correct result when data is returned by the api - test 4">
+    <testcase name="city search test Should give correct result when data is returned by the api - test 4" time="0.722" classname="Should give correct result when data is returned by the api - test 4">
     </testcase>
   </testsuite>
 </testsuites>
