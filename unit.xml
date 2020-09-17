@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.8280000000000003" tests="8" failures="8">
+  <testsuite name="Root Suite" timestamp="2020-09-17T18:04:10" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="city search test" timestamp="2020-09-17T18:04:10" tests="8" file="/projects/challenge/test/test.js" failures="8" time="2.8280000000000003">
+    <testcase name="city search test Valid input should be provided in the input box - no space no numbers allowed" time="0.156" classname="Valid input should be provided in the input box - no space no numbers allowed">
+      <failure message="no such alert
+  (Session info: headless chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Linux 5.0.0-1032-gke x86_64)" type="NoSuchAlertError"><![CDATA[NoSuchAlertError: no such alert
+  (Session info: headless chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Linux 5.0.0-1032-gke x86_64)
+    at Object.checkLegacyResponse (node_modules/selenium-webdriver/lib/error.js:546:15)
+    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:509:13)
+    at doSend.then.response (node_modules/selenium-webdriver/lib/http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+From: Task: WebDriver.switchTo().alert()
+    at thenableWebDriverProxy.schedule (node_modules/selenium-webdriver/lib/webdriver.js:807:17)
+    at TargetLocator.alert (node_modules/selenium-webdriver/lib/webdriver.js:1862:29)
+    at Context.<anonymous> (test/test.js:59:49)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="city search test After typing invalid input, it should be reset" time="0.138" classname="After typing invalid input, it should be reset">
+      <failure message="no such alert
+  (Session info: headless chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Linux 5.0.0-1032-gke x86_64)" type="NoSuchAlertError"><![CDATA[NoSuchAlertError: no such alert
+  (Session info: headless chrome=78.0.3904.108)
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Linux 5.0.0-1032-gke x86_64)
+    at Object.checkLegacyResponse (node_modules/selenium-webdriver/lib/error.js:546:15)
+    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:509:13)
+    at doSend.then.response (node_modules/selenium-webdriver/lib/http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+From: Task: WebDriver.switchTo().alert()
+    at thenableWebDriverProxy.schedule (node_modules/selenium-webdriver/lib/webdriver.js:807:17)
+    at TargetLocator.alert (node_modules/selenium-webdriver/lib/webdriver.js:1862:29)
+    at Context.<anonymous> (test/test.js:105:33)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="city search test Should search cities and render table on valid input by making sure api is hit" time="0.457" classname="Should search cities and render table on valid input by making sure api is hit">
+      <failure message="expected &apos;&apos; to equal &apos;Total cities found: 10&apos;" type="AssertionError"><![CDATA[AssertionError: expected '' to equal 'Total cities found: 10'
+    at Context.<anonymous> (test/test.js:158:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="city search test Should give correct result when no data is returned by the api" time="0.393" classname="Should give correct result when no data is returned by the api">
+      <failure message="expected &apos;&apos; to equal &apos;Total cities found: 0&apos;" type="AssertionError"><![CDATA[AssertionError: expected '' to equal 'Total cities found: 0'
+    at Context.<anonymous> (test/test.js:208:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="city search test Should give correct result when data is returned by the api - test 1" time="0.394" classname="Should give correct result when data is returned by the api - test 1">
+      <failure message="expected &apos;&apos; to equal &apos;Total cities found: 10&apos;" type="AssertionError"><![CDATA[AssertionError: expected '' to equal 'Total cities found: 10'
+    at Context.<anonymous> (test/test.js:259:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="city search test Should give correct result when data is returned by the api - test 2" time="0.395" classname="Should give correct result when data is returned by the api - test 2">
+      <failure message="expected &apos;&apos; to equal &apos;Total cities found: 10&apos;" type="AssertionError"><![CDATA[AssertionError: expected '' to equal 'Total cities found: 10'
+    at Context.<anonymous> (test/test.js:310:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="city search test Should give correct result when data is returned by the api - test 3" time="0.374" classname="Should give correct result when data is returned by the api - test 3">
+      <failure message="expected &apos;&apos; to equal &apos;Total cities found: 2&apos;" type="AssertionError"><![CDATA[AssertionError: expected '' to equal 'Total cities found: 2'
+    at Context.<anonymous> (test/test.js:361:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="city search test Should give correct result when data is returned by the api - test 4" time="0.521" classname="Should give correct result when data is returned by the api - test 4">
+      <failure message="expected &apos;&apos; to equal &apos;Total cities found: 0&apos;" type="AssertionError"><![CDATA[AssertionError: expected '' to equal 'Total cities found: 0'
+    at Context.<anonymous> (test/test.js:412:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
