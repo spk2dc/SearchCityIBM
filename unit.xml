@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.8920000000000003" tests="8" failures="3">
+  <testsuite name="Root Suite" timestamp="2020-09-17T19:49:32" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="city search test" timestamp="2020-09-17T19:49:32" tests="8" file="/projects/challenge/test/test.js" failures="3" time="3.8920000000000003">
+    <testcase name="city search test Valid input should be provided in the input box - no space no numbers allowed" time="0.483" classname="Valid input should be provided in the input box - no space no numbers allowed">
+    </testcase>
+    <testcase name="city search test After typing invalid input, it should be reset" time="0.348" classname="After typing invalid input, it should be reset">
+    </testcase>
+    <testcase name="city search test Should search cities and render table on valid input by making sure api is hit" time="0.679" classname="Should search cities and render table on valid input by making sure api is hit">
+    </testcase>
+    <testcase name="city search test Should give correct result when no data is returned by the api" time="0.466" classname="Should give correct result when no data is returned by the api">
+    </testcase>
+    <testcase name="city search test Should give correct result when data is returned by the api - test 1" time="0.463" classname="Should give correct result when data is returned by the api - test 1">
+      <failure message="expected 7 to equal 5" type="AssertionError"><![CDATA[AssertionError: expected 7 to equal 5
+    at Context.<anonymous> (test/test.js:262:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="city search test Should give correct result when data is returned by the api - test 2" time="0.482" classname="Should give correct result when data is returned by the api - test 2">
+      <failure message="expected 10 to equal 9" type="AssertionError"><![CDATA[AssertionError: expected 10 to equal 9
+    at Context.<anonymous> (test/test.js:313:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="city search test Should give correct result when data is returned by the api - test 3" time="0.489" classname="Should give correct result when data is returned by the api - test 3">
+    </testcase>
+    <testcase name="city search test Should give correct result when data is returned by the api - test 4" time="0.482" classname="Should give correct result when data is returned by the api - test 4">
+      <failure message="expected 10 to equal 9" type="AssertionError"><![CDATA[AssertionError: expected 10 to equal 9
+    at Context.<anonymous> (test/test.js:415:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
