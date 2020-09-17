@@ -55,11 +55,6 @@ let clickFunc = () => {
         tr.appendChild(td)
       }
     });
-
-
-  //hide loader icon in case fetch was not successful
-  document.getElementsByClassName("loader")[0].style.display = 'none'
-
 }
 
 //add click event to button
