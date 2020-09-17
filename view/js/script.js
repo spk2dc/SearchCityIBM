@@ -28,7 +28,7 @@ let clickFunc = () => {
       document.getElementsByClassName("loader")[0].style.display = 'none'
 
       //show total # of cities
-      document.getElementById("totalCount").innerText = `Total cities found: ${data.total}`
+      document.getElementById("totalCount").innerText = `Total cities found: ${data.data.length}`
 
       //create tbody on table
       let tbody = document.createElement("tbody")
