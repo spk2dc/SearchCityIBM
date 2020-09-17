@@ -9,7 +9,7 @@ let clickFunc = () => {
 
   //if incorrect input then display alert and end function
   if (!inp.match("^[A-Za-z]+$")) {
-    alert('Please provide a valid input (only characters A-Z or a-z)')
+    alert('Please provide a valid input')
     //hide loader icon
     document.getElementsByClassName("loader")[0].style.display = 'none'
     return;
