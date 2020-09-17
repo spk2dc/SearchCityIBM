@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="4.08" tests="8" failures="1">
-  <testsuite name="Root Suite" timestamp="2020-09-17T19:34:34" tests="0" failures="0" time="0">
+<testsuites name="Mocha Tests" time="4.152" tests="8" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-09-17T19:36:05" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="city search test" timestamp="2020-09-17T19:34:34" tests="8" file="/projects/challenge/test/test.js" failures="1" time="4.08">
-    <testcase name="city search test Valid input should be provided in the input box - no space no numbers allowed" time="0.508" classname="Valid input should be provided in the input box - no space no numbers allowed">
+  <testsuite name="city search test" timestamp="2020-09-17T19:36:05" tests="8" file="/projects/challenge/test/test.js" failures="2" time="4.152">
+    <testcase name="city search test Valid input should be provided in the input box - no space no numbers allowed" time="0.535" classname="Valid input should be provided in the input box - no space no numbers allowed">
     </testcase>
-    <testcase name="city search test After typing invalid input, it should be reset" time="0.295" classname="After typing invalid input, it should be reset">
+    <testcase name="city search test After typing invalid input, it should be reset" time="0.324" classname="After typing invalid input, it should be reset">
     </testcase>
-    <testcase name="city search test Should search cities and render table on valid input by making sure api is hit" time="0.665" classname="Should search cities and render table on valid input by making sure api is hit">
+    <testcase name="city search test Should search cities and render table on valid input by making sure api is hit" time="0.668" classname="Should search cities and render table on valid input by making sure api is hit">
     </testcase>
-    <testcase name="city search test Should give correct result when no data is returned by the api" time="0.49" classname="Should give correct result when no data is returned by the api">
+    <testcase name="city search test Should give correct result when no data is returned by the api" time="0.502" classname="Should give correct result when no data is returned by the api">
     </testcase>
-    <testcase name="city search test Should give correct result when data is returned by the api - test 1" time="0.496" classname="Should give correct result when data is returned by the api - test 1">
+    <testcase name="city search test Should give correct result when data is returned by the api - test 1" time="0.583" classname="Should give correct result when data is returned by the api - test 1">
+      <failure message="expected &apos;Total cities found: 12&apos; to equal &apos;Total cities found: 10&apos;" type="AssertionError"><![CDATA[AssertionError: expected 'Total cities found: 12' to equal 'Total cities found: 10'
+    at Context.<anonymous> (test/test.js:259:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
     </testcase>
-    <testcase name="city search test Should give correct result when data is returned by the api - test 2" time="0.541" classname="Should give correct result when data is returned by the api - test 2">
-      <failure message="expected &apos;Total cities found: 37&apos; to equal &apos;Total cities found: 10&apos;" type="AssertionError"><![CDATA[AssertionError: expected 'Total cities found: 37' to equal 'Total cities found: 10'
+    <testcase name="city search test Should give correct result when data is returned by the api - test 2" time="0.496" classname="Should give correct result when data is returned by the api - test 2">
+      <failure message="expected &apos;Total cities found: 12&apos; to equal &apos;Total cities found: 10&apos;" type="AssertionError"><![CDATA[AssertionError: expected 'Total cities found: 12' to equal 'Total cities found: 10'
     at Context.<anonymous> (test/test.js:310:26)
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
     </testcase>
-    <testcase name="city search test Should give correct result when data is returned by the api - test 3" time="0.491" classname="Should give correct result when data is returned by the api - test 3">
+    <testcase name="city search test Should give correct result when data is returned by the api - test 3" time="0.511" classname="Should give correct result when data is returned by the api - test 3">
     </testcase>
-    <testcase name="city search test Should give correct result when data is returned by the api - test 4" time="0.594" classname="Should give correct result when data is returned by the api - test 4">
+    <testcase name="city search test Should give correct result when data is returned by the api - test 4" time="0.533" classname="Should give correct result when data is returned by the api - test 4">
     </testcase>
   </testsuite>
 </testsuites>
